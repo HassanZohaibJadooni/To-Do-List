@@ -158,12 +158,12 @@ http://localhost:3000
 
 # 💡 Usage
 
-1️⃣ Enter a task in the input field
-2️⃣ Click **Add** or press **Enter**
-3️⃣ Click **✓** to mark the task completed
-4️⃣ Double click the task to **edit**
-5️⃣ Click **✕** to delete the task
-6️⃣ Drag and drop tasks to reorder them
+1️⃣ Enter a task in the input field <br>
+2️⃣ Click **Add** or press **Enter** <br>
+3️⃣ Click **✓** to mark the task completed <br>
+4️⃣ Double click the task to **edit** <br>
+5️⃣ Click **✕** to delete the task <br>
+6️⃣ Drag and drop tasks to reorder them 
 
 # 👨‍💻 Author
 
