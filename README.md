@@ -148,7 +148,7 @@ npm install
 
 Run the project
 
-npm start
+npm run dev
 
 The app will run at
 
