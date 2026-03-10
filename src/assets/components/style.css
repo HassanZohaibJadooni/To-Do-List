@@ -1349,8 +1349,8 @@ span.shortcut-name {
 
 .pendulum:after {
     content: "";
-    width: 8px;
-    height: 8px;
+    width: 15px;
+    height: 15px;
     background-color: var(--bg-submit);
     position: absolute;
     top: 2px;
