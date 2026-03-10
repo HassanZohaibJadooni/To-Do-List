@@ -108,11 +108,11 @@ function ToDoList() {
   // ================= FILTER TASKS =================
 
   const filteredTasks = tasks.filter((task) => {
-    if (filter === "active") return !task.completed; // sirf active
+    if (filter === "active") return !task.completed;
 
-    if (filter === "completed") return task.completed; // sirf completed
+    if (filter === "completed") return task.completed;
 
-    return true; // sab show
+    return true;
   });
 
   // remaining tasks count
@@ -197,6 +197,19 @@ function ToDoList() {
 
                   <div className="bar-message-text">Act Now, Simplify Life ☕</div>
                 </div>
+                <div className="d-flex border-left-2">
+                  <div class="buttons-div-box red-div" onClick={() => setFilter("all")}>
+                    All
+                  </div>
+
+                  <div class="buttons-div-box green-div" onClick={() => setFilter("active")}>
+                    Pending
+                  </div>
+
+                  <div class="buttons-div-box blue-div" onClick={() => setFilter("completed")}>
+                    Completed
+                  </div>
+                </div>
 
                 {/* TASK LIST */}
                 <ul className="todo-list">
@@ -236,6 +249,9 @@ function ToDoList() {
                 <div className="bar-message bar-bottom">
                   <div className="bar-message-text">{remainingTasks} items remaining</div>
                 </div>
+              </div>
+              <div className="bar-message bar-bottom">
+                <div className="bar-message-text">{remainingTasks} items remaining</div>
               </div>
             </div>
           </div>

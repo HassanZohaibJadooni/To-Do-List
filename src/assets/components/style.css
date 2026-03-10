@@ -1779,3 +1779,27 @@ span.shortcut-name {
         transform: scale3d(.3, .3, .3)
     }
 }
+
+.buttons-div-box {
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 3px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.red-div {
+    background-color: #ff0000;
+}
+
+.green-div {
+    background-color: green;
+}
+
+.blue-div {
+    background-color: rgb(0, 0, 255);
+}
