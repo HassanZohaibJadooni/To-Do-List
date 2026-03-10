@@ -61,7 +61,7 @@ Live Demo:
 (Click every where on List to Update)
 
 <p align="center">
-  <img src="screenshots/update-task.png" width="800">
+  <img src="screenshots/updated-task.png" width="800">
 </p>
 
 ---
@@ -77,12 +77,13 @@ Live Demo:
 # ✨ Features
 
 ✔ Add new tasks
-✔ Edit tasks by **double click**
-✔ Delete tasks
-✔ Mark tasks as **completed / uncompleted**
-✔ **Mark all tasks as done**
-✔ **Drag and drop** task reordering
-✔ LocalStorage data persistence
+<br>
+✔ Edit tasks by **double click**<br>
+✔ Delete tasks<br>
+✔ Mark tasks as **completed / uncompleted**<br>
+✔ **Mark all tasks as done**<br>
+✔ **Drag and drop** task reordering<br>
+✔ LocalStorage data persistence<br>
 ✔ Remaining tasks counter
 
 ---
