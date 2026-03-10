@@ -12,7 +12,7 @@ The app allows users to **add, edit, delete, complete, and reorder tasks using d
 
 # 🚀 Live Demo
 
-👉 Add your deployed link here
+https://to-do-list-znqr.vercel.app/
 
 Example:
 
