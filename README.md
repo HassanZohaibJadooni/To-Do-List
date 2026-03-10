@@ -106,27 +106,27 @@ Live Demo:
 
 project-folder
 
-public
+public<br>
 │
-├── img
-│ └── todo.svg
+├── img<br>
+│ └── todo.svg<br>
 
-src
+src<br>
 │
-├── components
-│ └── ToDoList.js
+├── components<br>
+│ └── ToDoList.js<br>
 │
-├── App.js
+├── App.js<br>
 ├── index.js
 
-screenshots
+screenshots<br>
 │
-├── home.png
-├── add-task.png
-├── completed-task.png
-├── edit-task.png
-├── updated-task.png
-├── drag-drop.png
+├── home.png<br>
+├── add-task.png<br>
+├── completed-task.png<br>
+├── edit-task.png<br>
+├── updated-task.png<br>
+├── drag-drop.png<br>
 
 README.md
 
