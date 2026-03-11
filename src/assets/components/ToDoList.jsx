@@ -186,7 +186,7 @@ function ToDoList() {
               </div>
             </div>
 
-            {/* MAIN SECTION */}
+            {/* MAIN SECTIONs */}
             <div className="container main">
               <div className="todo-list-box">
                 {/* TOP BAR */}
