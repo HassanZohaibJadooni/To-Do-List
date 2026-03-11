@@ -71,12 +71,19 @@ The application allows users to **add, edit, delete, complete, and reorder tasks
 # ✨ Features
 
 ✔ Add new tasks
+
 ✔ Edit tasks by **double clicking**
+
 ✔ Delete tasks
+
 ✔ Mark tasks as **completed / uncompleted**
+
 ✔ **Mark all tasks as completed**
+
 ✔ **Drag & Drop task reordering**
+
 ✔ Tasks stored in **localStorage**
+
 ✔ Remaining tasks counter
 
 ---
