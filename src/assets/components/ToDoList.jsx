@@ -27,7 +27,7 @@ function ToDoList() {
   // drag and drop ke liye dragged item ka index
   const [dragIndex, setDragIndex] = useState(null);
 
-  // ================= ADD TASK =================
+  //  ADD TASK 
 
   const addTask = () => {
     // agar input empty ho to function stop
@@ -58,7 +58,7 @@ function ToDoList() {
     setInputValue(value);
   };
 
-  // ================= COMPLETE / UNCOMPLETE =================
+  //  COMPLETE / UNCOMPLETE 
 
   const toggleTask = (index) => {
     // map se specific task ka completed toggle
@@ -67,7 +67,7 @@ function ToDoList() {
     setTasks(updatedTasks);
   };
 
-  // ================= DELETE TASK =================
+  //  DELETE TASK 
 
   const removeTask = (index) => {
     // filter se selected task remove
@@ -76,7 +76,7 @@ function ToDoList() {
     setTasks(updatedTasks);
   };
 
-  // ================= EDIT TASK =================
+  //  EDIT TASK 
 
   const startEdit = (index, text) => {
     setEditIndex(index); // edit mode start
@@ -93,7 +93,7 @@ function ToDoList() {
     setEditIndex(null);
   };
 
-  // ================= MARK ALL DONE =================
+  //  MARK ALL DONE 
 
   const markAllDone = () => {
     // sab tasks ko completed true kar dena
@@ -105,7 +105,7 @@ function ToDoList() {
     setTasks(updatedTasks);
   };
 
-  // ================= FILTER TASKS =================
+  //  FILTER TASKS 
 
   const filteredTasks = tasks.filter((task) => {
     if (filter === "active") return !task.completed;
@@ -118,7 +118,7 @@ function ToDoList() {
   // remaining tasks count
   const remainingTasks = tasks.filter((task) => !task.completed).length;
 
-  // ================= DRAG AND DROP =================
+  //  DRAG AND DROP 
 
   const handleDragStart = (index) => {
     setDragIndex(index); // dragged item ka index store
@@ -141,7 +141,7 @@ function ToDoList() {
     setTasks(updatedTasks);
   };
 
-  // ================= JSX =================
+  //  JSX 
 
   return (
     <>
@@ -249,9 +249,6 @@ function ToDoList() {
                 <div className="bar-message bar-bottom">
                   <div className="bar-message-text">{remainingTasks} items remaining</div>
                 </div>
-              </div>
-              <div className="bar-message bar-bottom">
-                <div className="bar-message-text">{remainingTasks} items remaining</div>
               </div>
             </div>
           </div>
